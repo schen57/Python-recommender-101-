@@ -24,9 +24,15 @@ However, to model what the recommender would produce in production, the timestam
 1. Build User profiles 
 2. Recommend based on User/Item profiles 
 
+### Details of the collaborative filtering
+1. Memory based: using past interaction activity, compute items that are similar based on users interacted or compute users that are similar based on items they have interacted
+2. Model based: (SVD, deep recommenders, reinforcement learnings) 
+
 
 
 ### Techniques that I need to double click to understand further
 1. Top-N accuracy scores 
-2. How exactly the content based filtering work (How user profiles are created, item profiles are created, how recommendation is created) 
+2. How exactly the content based filtering work (How user profiles are created, item profiles are created, how recommendation is created) . Look at the 
 3. How does the TF-IDF technique work for information retrival. It is noted in the tutorial that it is for transforming unstructured data into vectorized form
+4. How does the Collaborative filtering work? Look in more details at what the implementation looks like. 
+5. How exactly the hybrid approach combined the content based filtering and collaborative filtering together? 
