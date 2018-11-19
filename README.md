@@ -36,3 +36,4 @@ However, to model what the recommender would produce in production, the timestam
 3. How does the TF-IDF technique work for information retrival. It is noted in the tutorial that it is for transforming unstructured data into vectorized form
 4. How does the Collaborative filtering work? Look in more details at what the implementation looks like. 
 5. How exactly the hybrid approach combined the content based filtering and collaborative filtering together? 
+6. Check out how the vector space model work and why it matters to the content based filters
