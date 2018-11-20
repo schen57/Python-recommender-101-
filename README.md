@@ -42,7 +42,7 @@ However, to model what the recommender would produce in production, the timestam
 #### Technical details and questions:
 1. What's the scipy sparse matrix and vectorizer function? What do those do? In the code, this was used during the computation of the tfidf score based on the item details prior to the creation of item profile
 2. What does the item profile exactly look like? It is at the per item level where all the words within the item are computed with a TFIDF score. 
-3. What does the TFIDFVectorizer function do? What does the output look like?
+3. What does the TFIDFVectorizer function do? What does the output look like? Where is the corpus coming from for the IDF calculation?
 4. What does the item profile and user profile look like? 
 
 
