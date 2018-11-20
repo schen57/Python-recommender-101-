@@ -37,3 +37,12 @@ However, to model what the recommender would produce in production, the timestam
 4. How does the Collaborative filtering work? Look in more details at what the implementation looks like. 
 5. How exactly the hybrid approach combined the content based filtering and collaborative filtering together? 
 6. Check out how the vector space model work and why it matters to the content based filters
+
+
+#### Technical details and questions:
+1. What's the scipy sparse matrix and vectorizer function? What do those do? In the code, this was used during the computation of the tfidf score based on the item details prior to the creation of item profile
+2. What does the item profile exactly look like? It is at the per item level where all the words within the item are computed with a TFIDF score. 
+3. What does the TFIDFVectorizer function do? What does the output look like?
+4. What does the item profile and user profile look like? 
+
+
